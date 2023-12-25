@@ -18,7 +18,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #007bff;
+  --primary: #4452fe;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -5804,7 +5804,7 @@ button.bg-dark:hover {
   display: inline-block !important;
 }
 .d-block {
-  display: block !important;
+  display: block;
 }
 .d-table {
   display: table !important;
@@ -6956,7 +6956,7 @@ button.bg-dark:hover {
   margin-left: 3rem !important;
 }
 .mb-27 {
- margin-bottom: 27px;
+  margin-bottom: 27px;
 }
 .p-0 {
   padding: 0 !important;
@@ -7079,16 +7079,14 @@ button.bg-dark:hover {
 .my-auto {
   margin-top: auto !important;
 }
-.mr-auto
- {
+.mr-auto {
   margin-right: auto !important;
 }
 .mb-auto,
 .my-auto {
   margin-bottom: auto !important;
 }
-.ml-auto
- {
+.ml-auto {
   margin-left: auto !important;
 }
 .mx-auto {
