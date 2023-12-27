@@ -93,7 +93,6 @@ h4,
 h5,
 h6 {
   margin-top: 0;
-  margin-bottom: 0.5rem;
 }
 p {
   margin-top: 0;
@@ -319,48 +318,7 @@ template {
 [hidden] {
   display: none !important;
 }
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-bottom: 0.5rem;
-  font-family: inherit;
-  font-weight: 500;
-  line-height: 1.2;
-  color: inherit;
-}
-.h1,
-h1 {
-  font-size: 2.5rem;
-}
-.h2,
-h2 {
-  font-size: 2rem;
-}
-.h3,
-h3 {
-  font-size: 1.75rem;
-}
-.h4,
-h4 {
-  font-size: 1.5rem;
-}
-.h5,
-h5 {
-  font-size: 1.25rem;
-}
-.h6,
-h6 {
-  font-size: 1rem;
-}
+
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
@@ -4139,7 +4097,7 @@ tbody.collapse.show {
 .navbar-dark .navbar-text a:hover {
   color: #fff;
 }
-.card {
+.car {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4155,28 +4113,28 @@ tbody.collapse.show {
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
 }
-.card > hr {
+.car > hr {
   margin-right: 0;
   margin-left: 0;
 }
-.card > .list-group:first-child .list-group-item:first-child {
+.car > .list-group:first-child .list-group-item:first-child {
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
 }
-.card > .list-group:last-child .list-group-item:last-child {
+.car > .list-group:last-child .list-group-item:last-child {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
 }
-.card-body {
+.car-body {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   padding: 1.25rem;
 }
-.card-title {
+.car-title {
   margin-bottom: 0.75rem;
 }
-.card-subtitle {
+.car-subtitle {
   margin-top: -0.375rem;
   margin-bottom: 0;
 }

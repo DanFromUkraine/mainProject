@@ -14,7 +14,9 @@
 .first_screen,
 .second_screen,
 .third_screen,
-.forth_screen {
+.forth_screen,
+.fifth_screen,
+.sixth_screen {
   background: var(--dark-background);
   width: 1579px;
 }
@@ -283,4 +285,72 @@ ul li {
 }
 .img-g img:hover {
   transform: scale(1.1);
+}
+.fifth_screen_main_container {
+  opacity: 0; /* Початково приховано */
+  transition: opacity 0.5s ease; /* Плавне змінення прозорості */
+  margin-bottom: 100px;
+}
+
+.fifth_screen_main_container:hover {
+  opacity: 1;
+}
+.fifth_screen_heading h2 {
+  padding-top: 220px;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 62px; /* 119.231% */
+}
+.fifth_screen_heading p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+  padding: 10px;
+  margin-bottom: 50px;
+}
+.a {
+  display: flex;
+  justify-content: center;
+}
+.a a {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 25px; /* 147.059% */
+  padding: 20px 40px;
+  border: 1px solid var(--light-text, #fff);
+  box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+}
+
+.sixth_screen {
+  padding-bottom: 230px;
+}
+.sixth_screen_main_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 883px;
+  gap: 20px;
+}
+.sixth_screen_main_container .card {
+  width: 430px;
+  padding: 40px;
+  border: 1px solid #dedede;
+  border-radius: 10px;
+}
+.sixth_screen_heading h2 {
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 62px; /* 119.231% */
+  padding-top: 210px;
+  margin-bottom: 50px;
+}
+.client_heading h3,
+.client_heading h4 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+
+.client img {
+  margin-right: 23px;
+  margin-bottom: 30px;
 }
