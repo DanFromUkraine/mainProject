@@ -17,7 +17,8 @@
 .forth_screen,
 .fifth_screen,
 .sixth_screen,
-.seventh_screen {
+.seventh_screen,
+.eighth_screen {
   background: var(--dark-background);
   width: 1579px;
 }
@@ -322,9 +323,9 @@ ul li {
   box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
 }
 
-.sixth_screen {
+/* .sixth_screen {
   padding-bottom: 230px;
-}
+} */
 .sixth_screen_main_container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -363,8 +364,6 @@ ul li {
   margin-top: -35px;
   object-fit: cover;
   width: 648px;
-  position: absolute;
-  right: 104px;
   border-bottom-right-radius: 33px;
 }
 .info_card {
@@ -391,4 +390,47 @@ ul li {
   background-color: var(--primary);
   box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
   padding: 20px 67px;
+}
+
+.eighth_screen {
+  padding-top: 287px;
+  padding-bottom: 107px;
+}
+footer {
+  width: 1031px;
+  height: 223px;
+  margin: 0 auto;
+  display: flex !important;
+}
+footer ul {
+  width: 319px;
+  height: 191px;
+}
+footer ul li {
+  height: 46px;
+}
+table {
+  margin-right: 200px;
+}
+
+table tr td:first-child,
+table tr td:nth-child(2) {
+  padding-right: 97px;
+}
+
+.p {
+  padding-bottom: 40px;
+}
+
+table tr:nth-child(2) td,
+table tr:nth-child(3) td,
+table tr:nth-child(4) td {
+  padding-bottom: 19px;
+}
+footer ul li:first-child .img-i {
+  margin-left: -5px;
+}
+footer ul li:last-child .img-i {
+  margin-top: 27px;
+  margin-right: 24px;
 }
