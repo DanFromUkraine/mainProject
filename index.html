@@ -5,409 +5,470 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./boot_style/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="./css/media.css" />
+    <script src="wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+
     <title>Document</title>
   </head>
   <body>
-    <div class="first_screen mx-auto">
-      <header class="d-flex mx-auto">
-        <div class="logo d-flex align-items-center">
-          <a href=""><img src="img/header/Rectangle 4.png" alt="" /></a>
-        </div>
+    <main>
+      <div class="first_screen">
+        <header class="d-flex mx-auto">
+          <div
+            class="logo d-flex align-items-center wow animate__animated animate__fadeInLeftBig"
+          >
+            <a href=""><img src="img/header/Rectangle 4.png" alt="" /></a>
+          </div>
 
-        <ul class="d-flex align-items-center">
-          <a href=""><li>Home</li></a>
-          <a href=""><li>Product</li></a>
-          <a href=""><li>About</li></a>
-          <a href=""><li>Contact</li></a>
-        </ul>
+          <ul class="d-flex align-items-center">
+            <a href=""><li>Home</li></a>
+            <a href=""><li>Product</li></a>
+            <a href=""><li>About</li></a>
+            <a href=""><li>Contact</li></a>
+          </ul>
 
-        <div class="button_login d-flex align-items-center">
-          <a href="" class="login d-flex align-items-center">
-            <span>Login</span>
-          </a>
+          <div
+            data-wow-delay="0.4s"
+            class="button_box ml-173 wow animate__animated animate__fadeIn"
+            style="justify-content: unset"
+          >
+            <a href="" class="white_button"> Login </a>
+          </div>
+        </header>
+        <div class="offer">
+          <h1><span class="d-block"> Work at the speed</span> of thought</h1>
+          <p class="mx-auto">
+            <span class="d-block"
+              >Most calendars are designed for teams. Slate is designed for
+            </span>
+            freelancers who want a simple way to plan their schedule.
+          </p>
+          <!-- buttons_offer -->
+          <div
+            data-wow-delay="0.4s"
+            class="button_box w-387 wow animate__animated animate__fadeIn"
+          >
+            <a href="" class="blue_button">Try For Free</a>
+            <a href="" class="white_button">Learn More</a>
+          </div>
         </div>
-      </header>
-      <div class="offer">
-        <h1><span class="d-block"> Work at the speed</span> of thought</h1>
-        <h2 class="mx-auto">
+        <div class="hero">
+          <img
+            data-wow-duration="1.5s"
+            src="img/hero/screens.png"
+            alt=""
+            class="wow animate__animated animate__slideInUp"
+            style="z-index: 0 !important"
+          />
+          <img src="img/hero/Gradient.png" alt="" />
+        </div>
+      </div>
+
+      <div class="second_screen">
+        <h2 class="second_header text-center mb-27">FEATURES</h2>
+
+        <p class="text-center">
           <span class="d-block"
             >Most calendars are designed for teams. Slate is designed for
           </span>
           freelancers who want a simple way to plan their schedule.
-        </h2>
-
-        <div class="buttons_offer d-flex justify-content-center">
-          <a href="">Try For Free</a>
-          <a href="">Learn More</a>
-        </div>
-      </div>
-      <div class="hero">
-        <img src="img/hero/screens.png" alt="" />
-        <img src="img/hero/Gradient.png" alt="" />
-      </div>
-    </div>
-
-    <div class="second_screen mx-auto">
-      <h2 class="text-center mb-27">FEATURES</h2>
-
-      <p class="text-center">
-        <span class="d-block"
-          >Most calendars are designed for teams. Slate is designed for
-        </span>
-        freelancers who want a simple way to plan their schedule.
-      </p>
-
-      <div class="second_screen-main_content d-flex">
-        <div>
-          <img src="img/second_screen/second_screen_exemple.png" alt="" />
-        </div>
-
-        <ol>
-          <li>
-            <img
-              src="img/second_screen/icons/item1.svg"
-              alt=""
-              style="width: 25px; height: 23px"
-            />
-            <h3>A single source of truth</h3>
-            <p>
-              When you add work to your Slate calendar we automatically
-              calculate useful insights
-            </p>
-          </li>
-
-          <li>
-            <img
-              src="img/second_screen/icons/item2.svg"
-              alt=""
-              style="width: 29px; height: 30px"
-            />
-            <h3>Intuitive interface</h3>
-            <p>
-              When you add work to your Slate calendar we automatically
-              calculate useful insights
-            </p>
-          </li>
-
-          <li>
-            <img
-              src="img/second_screen/icons/item3.svg"
-              alt=""
-              style="width: 41px; height: 19px"
-            />
-            <h3 class="second_screen-ol-last_li">Or with rules</h3>
-            <p>
-              When you add work to your Slate calendar we automatically
-              calculate useful insights
-            </p>
-          </li>
-        </ol>
-      </div>
-    </div>
-    <div class="third_screen mx-auto">
-      <div class="third_screen_heading text-center">
-        <h2 class="text-center">Contents</h2>
-        <p class="text-center">
-          <span class="d-block"
-            >We focus on ergonomics and meeting you where you work.</span
-          >
-          It's only a keystroke away.
         </p>
+
+        <div class="second_screen-main_content d-flex">
+          <div>
+            <img src="img/second_screen/second_screen_exemple.png" alt="" />
+          </div>
+
+          <ol>
+            <li>
+              <img
+                src="img/second_screen/icons/item1.svg"
+                alt=""
+                style="width: 25px; height: 23px"
+              />
+              <h3>A single source of truth</h3>
+              <p>
+                When you add work to your Slate calendar we automatically
+                calculate useful insights
+              </p>
+            </li>
+
+            <li>
+              <img
+                src="img/second_screen/icons/item2.svg"
+                alt=""
+                style="width: 29px; height: 30px"
+              />
+              <h3>Intuitive interface</h3>
+              <p>
+                When you add work to your Slate calendar we automatically
+                calculate useful insights
+              </p>
+            </li>
+
+            <li>
+              <img
+                src="img/second_screen/icons/item3.svg"
+                alt=""
+                style="width: 41px; height: 19px"
+              />
+              <h3 class="second_screen-ol-last_li">Or with rules</h3>
+              <p>
+                When you add work to your Slate calendar we automatically
+                calculate useful insights
+              </p>
+            </li>
+          </ol>
+        </div>
       </div>
-      <div class="cards d-flex mx-auto">
-        <div class="card_a">
-          <h3>Work</h3>
-          <p>
-            Ever wondered if you're too reliant <br />
-            on a client for work? Slate helps <br />
-            you identify .
+      <div class="third_screen">
+        <div class="third_screen_heading text-center">
+          <h2 class="second_header text-center">Contents</h2>
+          <p class="text-center">
+            <span class="d-block"
+              >We focus on ergonomics and meeting you where you work.</span
+            >
+            It's only a keystroke away.
           </p>
-          <div class="third_screen_button mx-auto" style="margin-bottom: 57px">
-            <a href="" class="text-center">Sign Up</a>
-          </div>
-
-          <img
-            src="img/third_screen/card_a/Macbook Pro.png"
-            alt=""
-            class="d-block mx-auto"
-          />
         </div>
-        <div class="card_b">
-          <h3>Design with real data</h3>
-          <p>
-            Ever wondered if you're too reliant <br />
-            on a client for work? Slate helps <br />
-            you identify .
+        <div class="cards d-flex mx-auto">
+          <div class="card_a">
+            <h3>Work</h3>
+            <p>
+              Ever wondered if you're too reliant <br />
+              on a client for work? Slate helps <br />
+              you identify .
+            </p>
+            <div
+              data-wow-delay="0.4s"
+              class="button_box mx-auto wow animate__animated animate__fadeIn"
+            >
+              <a href="" class="blue_button">Sign Up</a>
+            </div>
+
+            <img
+              src="img/third_screen/card_a/Macbook Pro.png"
+              alt=""
+              class="d-block mx-auto"
+            />
+          </div>
+          <div class="card_b">
+            <h3>Design with real data</h3>
+            <p>
+              Ever wondered if you're too reliant <br />
+              on a client for work? Slate helps <br />
+              you identify .
+            </p>
+            <div
+              data-wow-delay="0.4s"
+              class="button_box mx-auto wow animate__animated animate__fadeIn"
+            >
+              <a href="" class="blue_button">Try For Free</a>
+            </div>
+            <img
+              src="img/third_screen/card_b/Boards Notifications.png"
+              alt=""
+              class="d-block mx-auto"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="forth_screen">
+        <div class="forth_screen_heading">
+          <h2 class="second_header text-center">Gallery</h2>
+          <p class="text-center">
+            <span class="d-block"
+              >We focus on ergonomics and meeting you where you work.</span
+            >
+            It's only a keystroke away.
           </p>
-          <div class="third_screen_button mx-auto">
-            <a href="" class="text-center">Try For Free</a>
+        </div>
+        <div class="grid_layout_gallery mx-auto">
+          <div class="img-a text-center" style="grid-area: a">
+            <img
+              src="img/forth_screen/row_1/img_1.png"
+              alt=""
+              style="border-radius: 10px"
+            />
           </div>
-          <img
-            src="img/third_screen/card_b/Boards Notifications.png"
-            alt=""
-            class="d-block mx-auto"
-          />
+          <div class="img-b text-center" style="grid-area: b">
+            <img
+              src="img/forth_screen/row_1/img_2.png"
+              alt=""
+              style="border-radius: 10px"
+            />
+          </div>
+          <div class="img-c text-center" style="grid-area: c">
+            <img
+              src="img/forth_screen/row_1/img_3.png"
+              alt=""
+              style="border-radius: 10px"
+            />
+          </div>
+          <div class="img-d text-center" style="grid-area: d">
+            <img
+              src="img/forth_screen/row_1/img_4.png"
+              alt=""
+              style="border-radius: 10px"
+            />
+          </div>
+          <div class="img-e text-center" style="grid-area: e">
+            <img
+              src="img/forth_screen/row_2/r2_img1.png"
+              alt=""
+              style="border-radius: 10px"
+            />
+          </div>
+          <div class="img-f text-center" style="grid-area: f">
+            <img
+              src="img/forth_screen/row_2/r2_img2.png"
+              alt=""
+              style="border-radius: 10px"
+            />
+          </div>
+          <div class="img-g text-center" style="grid-area: g">
+            <img
+              src="img/forth_screen/row_2/r2_img3.png"
+              alt=""
+              style="border-radius: 10px"
+            />
+          </div>
+        </div>
+        <div
+          data-wow-delay="0.4s"
+          class="button_box wow animate__animated animate__fadeIn"
+          style="margin-top: 57px"
+        >
+          <a href="" class="white_button">See more</a>
         </div>
       </div>
-    </div>
-    <div class="forth_screen mx-auto">
-      <div class="forth_screen_heading">
-        <h2 class="text-center">Gallery</h2>
-        <p class="text-center">
-          <span class="d-block"
-            >We focus on ergonomics and meeting you where you work.</span
+      <div class="fifth_screen">
+        <div
+          data-wow-delay="0.8s"
+          class="fifth_screen_heading animate__animated animate__fadeInTopLeft wow"
+        >
+          <h2 class="second_header text-center">Partners</h2>
+          <p class="text-center">
+            We focus on ergonomics and meeting you where you work.
+            <span class="d-block">It's only a keystroke away.</span>
+          </p>
+        </div>
+        <div
+          data-wow-delay="1.2s"
+          class="fifth_screen_main_container animate__animated animate__fadeInTopRight justify-content-between mx-auto d-flex wow"
+          style="width: 832px; margin-bottom: 100px"
+        >
+          <img src="./img/fifth_screen/logos_apple-app-store.svg" alt="" />
+          <img src="./img/fifth_screen/logos_apiary.svg" alt="" />
+          <img src="./img/fifth_screen/logos_android-icon.svg" alt="" />
+          <img src="./img/fifth_screen/logos_basecamp.svg" alt="" />
+          <img src="./img/fifth_screen/logos_airbnb.svg" alt="" />
+          <img src="./img/fifth_screen/logos_ibm.svg" alt="" />
+        </div>
+        <div
+          data-wow-delay="0.4s"
+          class="button_box wow animate__animated animate__fadeIn"
+          style="margin-top: 50px"
+        >
+          <a href="" class="white_button">All Partners</a>
+        </div>
+      </div>
+      <div class="sixth_screen">
+        <div class="sixth_screen_heading">
+          <h2
+            class="second_header text-center wow animate__animated animate__backInDown"
           >
-          It's only a keystroke away.
-        </p>
-      </div>
-      <div class="grid_layout_gallery mx-auto">
-        <div class="img-a text-center">
-          <img
-            src="img/forth_screen/row_1/img_1.png"
-            alt=""
-            style="border-radius: 10px"
-          />
-        </div>
-        <div class="img-b text-center">
-          <img
-            src="img/forth_screen/row_1/img_2.png"
-            alt=""
-            style="border-radius: 10px"
-          />
-        </div>
-        <div class="img-c text-center">
-          <img
-            src="img/forth_screen/row_1/img_3.png"
-            alt=""
-            style="border-radius: 10px"
-          />
-        </div>
-        <div class="img-d text-center">
-          <img
-            src="img/forth_screen/row_1/img_4.png"
-            alt=""
-            style="border-radius: 10px"
-          />
-        </div>
-        <div class="img-e text-center">
-          <img
-            src="img/forth_screen/row_2/r2_img1.png"
-            alt=""
-            style="border-radius: 10px"
-          />
-        </div>
-        <div class="img-f text-center">
-          <img
-            src="img/forth_screen/row_2/r2_img2.png"
-            alt=""
-            style="border-radius: 10px"
-          />
-        </div>
-        <div class="img-g text-center">
-          <img
-            src="img/forth_screen/row_2/r2_img3.png"
-            alt=""
-            style="border-radius: 10px"
-          />
-        </div>
-      </div>
-      <div class="forth_screen_button" style="margin-top: 57px">
-        <a href="" class="more_button justify-content-center">See more</a>
-      </div>
-    </div>
-    <div class="fifth_screen mx-auto">
-      <div class="fifth_screen_heading">
-        <h2 class="text-center">Partners</h2>
-        <p class="text-center">
-          We focus on ergonomics and meeting you where you work.
-          <span class="d-block">It's only a keystroke away.</span>
-        </p>
-      </div>
-      <div
-        class="fifth_screen_main_container justify-content-between mx-auto d-flex"
-        style="width: 832px"
-      >
-        <img src="./img/fifth_screen/logos_apple-app-store.svg" alt="" />
-        <img src="./img/fifth_screen/logos_apiary.svg" alt="" />
-        <img src="./img/fifth_screen/logos_android-icon.svg" alt="" />
-        <img src="./img/fifth_screen/logos_basecamp.svg" alt="" />
-        <img src="./img/fifth_screen/logos_airbnb.svg" alt="" />
-        <img src="./img/fifth_screen/logos_ibm.svg" alt="" />
-      </div>
-      <div class="a" style="margin-top: 50px"><a href="">All Partners</a></div>
-    </div>
-    <div class="sixth_screen mx-auto">
-      <div class="sixth_screen_heading">
-        <h2 class="text-center">Testimonials</h2>
-      </div>
-      <div class="sixth_screen_main_container mx-auto">
-        <div class="card">
-          <div class="client d-block">
-            <section class="d-flex">
-              <img src="img/sixth_screen/card_a/Ellipse 2.svg" alt="" />
-              <div class="client_heading">
-                <h3>Claire Bell</h3>
-                <h4>Designer</h4>
-              </div>
-            </section>
-
-            <p>
-              Slate helps you see how many more days you need to work to reach
-              your financial goal for the month and year. Slate helps you see
-              how many more days you need to work to reach your financial goal
-              for the month and year.your financial goal for the month and year.
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="client d-block">
-            <section class="d-flex">
-              <img src="img/sixth_screen/card_b/Ellipse 2.svg" alt="" />
-              <div class="client_heading">
-                <h3>Francisco Lane</h3>
-                <h4>Designer</h4>
-              </div>
-            </section>
-
-            <p>
-              Slate helps you see how many more days you need to work to reach
-              your financial goal for the month and year. Slate helps you see
-              how many more days you need to work to reach your financial goal
-              for the month and year.your financial goal for the month and year.
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="client d-block">
-            <section class="d-flex">
-              <img src="img/sixth_screen/card_c/Ellipse 2.svg" alt="" />
-              <div class="client_heading">
-                <h3>Ralph Fisher</h3>
-                <h4>Designer</h4>
-              </div>
-            </section>
-
-            <p>
-              Slate helps you see how many more days you need to work to reach
-              your financial goal for the month and year. Slate helps you see
-              how many more days you need to work to reach your financial goal
-              for the month and year.your financial goal for the month and year.
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="client d-block">
-            <section class="d-flex">
-              <img src="img/sixth_screen/card_d/Ellipse 2.svg" alt="" />
-              <div class="client_heading">
-                <h3>Jorge Murphy</h3>
-                <h4>Designer</h4>
-              </div>
-            </section>
-
-            <p>
-              Slate helps you see how many more days you need to work to reach
-              your financial goal for the month and year. Slate helps you see
-              how many more days you need to work to reach your financial goal
-              for the month and year.your financial goal for the month and year.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="seventh_screen mx-auto">
-      <div class="info_card d-flex mx-auto justify-content-between">
-        <div class="content">
-          <h2>
-            <span class="d-block">OpenType features</span> and Variable fonts
+            Testimonials
           </h2>
-          <div class="sBtn"><a href="">Try For Free</a></div>
         </div>
-        <div class="img">
-          <img src="img/seventh_screen/Line Chart 1.png" alt="" />
+        <div class="sixth_screen_main_container mx-auto">
+          <div class="card wow animate__animated animate__fadeInTopLeft">
+            <div class="client d-block">
+              <section class="d-flex">
+                <img src="img/sixth_screen/card_a/Ellipse 2.svg" alt="" />
+                <div class="client_heading">
+                  <h3>Claire Bell</h3>
+                  <h4>Designer</h4>
+                </div>
+              </section>
+
+              <p>
+                Slate helps you see how many more days you need to work to reach
+                your financial goal for the month and year. Slate helps you see
+                how many more days you need to work to reach your financial goal
+                for the month and year.your financial goal for the month and
+                year.
+              </p>
+            </div>
+          </div>
+          <div class="card wow animate__animated animate__fadeInTopRight">
+            <div class="client d-block">
+              <section class="d-flex">
+                <img src="img/sixth_screen/card_b/Ellipse 2.svg" alt="" />
+                <div class="client_heading">
+                  <h3>Francisco Lane</h3>
+                  <h4>Designer</h4>
+                </div>
+              </section>
+
+              <p>
+                Slate helps you see how many more days you need to work to reach
+                your financial goal for the month and year. Slate helps you see
+                how many more days you need to work to reach your financial goal
+                for the month and year.your financial goal for the month and
+                year.
+              </p>
+            </div>
+          </div>
+          <div class="card wow animate__animated animate__fadeInBottomLeft">
+            <div class="client d-block">
+              <section class="d-flex">
+                <img src="img/sixth_screen/card_c/Ellipse 2.svg" alt="" />
+                <div class="client_heading">
+                  <h3>Ralph Fisher</h3>
+                  <h4>Designer</h4>
+                </div>
+              </section>
+
+              <p>
+                Slate helps you see how many more days you need to work to reach
+                your financial goal for the month and year. Slate helps you see
+                how many more days you need to work to reach your financial goal
+                for the month and year.your financial goal for the month and
+                year.
+              </p>
+            </div>
+          </div>
+          <div class="card wow animate__animated animate__fadeInBottomRight">
+            <div class="client d-block">
+              <section class="d-flex">
+                <img src="img/sixth_screen/card_d/Ellipse 2.svg" alt="" />
+                <div class="client_heading">
+                  <h3>Jorge Murphy</h3>
+                  <h4>Designer</h4>
+                </div>
+              </section>
+
+              <p>
+                Slate helps you see how many more days you need to work to reach
+                your financial goal for the month and year. Slate helps you see
+                how many more days you need to work to reach your financial goal
+                for the month and year.your financial goal for the month and
+                year.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="eighth_screen mx-auto">
-      <footer>
-        <table>
-          <tr>
-            <th class="p">Fingertipe</th>
-            <th class="p">Resources</th>
-            <th class="p">About</th>
-          </tr>
-          <tr>
-            <td>Home</td>
-            <td>Home</td>
-            <td>Home</td>
-          </tr>
-          <tr>
-            <td>Examples</td>
-            <td>Examples</td>
-            <td>Examples</td>
-          </tr>
-          <tr>
-            <td>Pricing</td>
-            <td>Pricing</td>
-            <td>Pricing</td>
-          </tr>
-          <tr>
-            <td>Updates</td>
-            <td>Updates</td>
-            <td>Updates</td>
-          </tr>
-        </table>
-        <ul>
-          <li>
-            <div class="img-i">
-              <a
-                href="https://www.google.com.ua/maps/search/7480+Mockingbird+Hill/@50.2464512,30.277632,13z/data=!3m1!4b1?entry=ttu"
+      <div class="seventh_screen">
+        <div class="info_card d-flex mx-auto justify-content-between">
+          <div class="content">
+            <h2 class="second_header">
+              <span class="d-block">OpenType features</span> and Variable fonts
+            </h2>
+            <div
+              data-wow-delay="0.4s"
+              class="button_box wow animate__animated animate__fadeIn"
+            >
+              <a href="" class="blue_button" style="padding: 20px 67px"
+                >Try For Free</a
               >
-                <img src="img/eighth_screen/point/bx_bx-map.svg" alt="" /><span
-                  >7480 Mockingbird Hill undefined
-                </span>
-              </a>
             </div>
-          </li>
-          <li>
-            <div class="img-i">
-              <a href="tel:239555-0108">
-                <img
-                  src="img/eighth_screen/phone/ic_baseline-phone-android.svg"
-                  alt=""
-                />
-                <span>(239) 555-0108</span>
-              </a>
-            </div>
-          </li>
-          <li>
-            <div class="img-i">
-              <a href="https://twitter.com/i/flow/login">
-                <img
-                  src="img/eighth_screen/last/ant-design_twitter-outlined.svg"
-                  alt=""
-                />
-              </a>
-            </div>
-            <div class="img-i">
-              <a href="https://uk-ua.facebook.com/">
-                <img
-                  src="img/eighth_screen/last/ant-design_facebook-filled.svg"
-                  alt=""
-                />
-              </a>
-            </div>
-            <div class="img-i">
-              <a href="https://ua.linkedin.com/">
-                <img
-                  src="img/eighth_screen/last/ant-design_linkedin-filled.svg"
-                  alt=""
-                />
-              </a>
-            </div>
-          </li>
-        </ul>
-      </footer>
-    </div>
+          </div>
+          <div class="img">
+            <img src="img/seventh_screen/Line Chart 1.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="eighth_screen">
+        <footer>
+          <table>
+            <tr>
+              <th class="p">Fingertipe</th>
+              <th class="p">Resources</th>
+              <th class="p">About</th>
+            </tr>
+            <tr>
+              <td>Home</td>
+              <td>Home</td>
+              <td>Home</td>
+            </tr>
+            <tr>
+              <td>Examples</td>
+              <td>Examples</td>
+              <td>Examples</td>
+            </tr>
+            <tr>
+              <td>Pricing</td>
+              <td>Pricing</td>
+              <td>Pricing</td>
+            </tr>
+            <tr>
+              <td>Updates</td>
+              <td>Updates</td>
+              <td>Updates</td>
+            </tr>
+          </table>
+          <ul>
+            <li>
+              <div class="img-i">
+                <a
+                  href="https://www.google.com.ua/maps/search/7480+Mockingbird+Hill/@50.2464512,30.277632,13z/data=!3m1!4b1?entry=ttu"
+                >
+                  <img
+                    src="img/eighth_screen/point/bx_bx-map.svg"
+                    alt=""
+                  /><span>7480 Mockingbird Hill undefined </span>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="img-i">
+                <a href="tel:239555-0108">
+                  <img
+                    src="img/eighth_screen/phone/ic_baseline-phone-android.svg"
+                    alt=""
+                  />
+                  <span>(239) 555-0108</span>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="img-i">
+                <a href="https://twitter.com/i/flow/login">
+                  <img
+                    src="img/eighth_screen/last/ant-design_twitter-outlined.svg"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="img-i">
+                <a href="https://uk-ua.facebook.com/">
+                  <img
+                    src="img/eighth_screen/last/ant-design_facebook-filled.svg"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="img-i">
+                <a href="https://ua.linkedin.com/">
+                  <img
+                    src="img/eighth_screen/last/ant-design_linkedin-filled.svg"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </main>
   </body>
 </html>

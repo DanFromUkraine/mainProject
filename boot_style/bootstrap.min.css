@@ -20,6 +20,7 @@
   --gray: #6c757d;
   --gray-dark: #343a40;
   --primary: #4452fe;
+  /* Увага! Колір вгорі додав я ^ */
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -163,7 +164,7 @@ a {
 }
 a:hover {
   color: #0056b3;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:not([href]):not([tabindex]) {
   color: inherit;
@@ -196,6 +197,9 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
+
+  max-width: 100%;
+  height: auto;
 }
 svg:not(:root) {
   overflow: hidden;
@@ -3108,7 +3112,7 @@ tbody.collapse.show {
 }
 .btn-group-vertical > .btn:hover,
 .btn-group > .btn:hover {
-  z-index: 1;
+  /* z-index: 1; */
 }
 .btn-group-vertical > .btn.active,
 .btn-group-vertical > .btn:active,
@@ -6782,6 +6786,13 @@ button.bg-dark:hover {
 .w-100 {
   width: 100% !important;
 }
+/* Увага! Я тут додав клас для першої пари кнопок */
+.w-387 {
+  width: 387px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
 .h-25 {
   height: 25% !important;
 }
@@ -6793,6 +6804,10 @@ button.bg-dark:hover {
 }
 .h-100 {
   height: 100% !important;
+}
+/* Увага! Я тут додав відстань до first_screen > header > button_box*/
+.ml-173 {
+  margin-left: 173px;
 }
 .mw-100 {
   max-width: 100% !important;

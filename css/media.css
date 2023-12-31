@@ -1,0 +1,99 @@
+@media screen and (max-width: 1579px) {
+  main {
+    width: 100%;
+  }
+  main > div {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  main {
+    width: 960px;
+  }
+  header .button_box {
+    margin: 0;
+  }
+  header {
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .logo {
+    margin-right: 0;
+  }
+  .hero {
+    overflow-y: hidden;
+  }
+  .cards {
+    width: 100%;
+    padding: 0 10%;
+    justify-content: space-around;
+  }
+  .third_screen .cards > div {
+    width: 40%;
+  }
+  .grid_layout_gallery {
+    width: 741px;
+    grid-template-areas:
+      "a a b b c c"
+      "e e e f f ."
+      "d d g g g .";
+  }
+  .info_card {
+    width: auto;
+    margin: 10px 10px auto 10px;
+  }
+  .info_card .img {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 33px;
+    border-bottom-right-radius: 33px;
+  }
+  .info_card .img img {
+    margin-top: 0;
+  }
+  footer {
+    width: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .eighth_screen {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  table {
+    margin-right: 100px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  main {
+    width: 720px;
+  }
+  ul {
+    width: 270px;
+  }
+  .cards > div {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .cards > div > .button_box a {
+    margin-top: 0;
+  }
+  .cards > div;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    width: 540px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  main {
+    width: 100%;
+    padding: 0 15px;
+  }
+}
