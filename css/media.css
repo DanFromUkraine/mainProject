@@ -82,7 +82,36 @@
   .cards > div > .button_box a {
     margin-top: 0;
   }
-  .cards > div;
+  .fifth_screen_main_container {
+    width: 650px !important;
+  }
+  .sixth_screen_main_container {
+    width: 650px;
+  }
+  .sixth_screen_main_container .card {
+    width: 320px;
+  }
+  .grid_layout_gallery {
+    width: 670px;
+  }
+  .info_card .img {
+    display: none;
+  }
+  .info_card .content {
+    margin: 0 auto;
+    padding-left: 0;
+  }
+  footer {
+    display: block;
+    height: 350px;
+  }
+  table {
+    margin: 0 auto;
+  }
+  footer ul {
+    padding-top: 52px;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 768px) {

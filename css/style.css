@@ -225,8 +225,8 @@ table tr:nth-child(5) td {
   display: flex;
   justify-content: center;
 }
-.cars_a .button_box {
-  margin-bottom: 57px;
+.card_a .button_box {
+  margin-bottom: 30px;
 }
 
 .forth_screen {
@@ -267,6 +267,9 @@ table tr:nth-child(5) td {
   line-height: 30px; /* 150% */
   padding: 10px;
   margin-bottom: 50px;
+}
+.fifth_screen_main_container {
+  width: 832px;
 }
 .fifth_screen_main_container img {
   transition: transform 0.4s;
@@ -338,7 +341,7 @@ footer {
   width: 1031px;
   height: 223px;
   margin: 0 auto;
-  display: flex !important;
+  display: flex;
 }
 footer ul {
   width: 319px;
