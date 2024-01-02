@@ -5758,7 +5758,7 @@ button.bg-dark:hover {
   content: "";
 }
 .d-none {
-  display: none !important;
+  display: none;
 }
 .d-inline {
   display: inline !important;

@@ -17,6 +17,10 @@ main > div {
   background: var(--dark-background);
   width: 1579px;
 }
+.burger {
+  display: none;
+  position: relative;
+}
 
 .button_box {
   display: flex;
@@ -117,18 +121,21 @@ table tr:nth-child(5) td {
 
 .offer h1 {
   text-align: center;
-  font-size: 80px;
   font-weight: 500;
-  line-height: 88px;
   margin-top: 132px;
+  font-size: calc(40px + 28 * (100vw / 1579));
 }
 .offer p {
   margin-top: 27px;
   margin-bottom: 95px;
-  font-size: 20px;
+  width: 582px;
+}
+
+.p {
+  font-size: calc(17px + 3 * (100vw / 1579));
   font-weight: 400;
   line-height: 30px;
-  width: 582px;
+  padding: 10px;
 }
 
 .hero {

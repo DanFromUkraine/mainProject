@@ -118,6 +118,53 @@
   main {
     width: 540px;
   }
+
+  .big_ul {
+    display: none !important;
+  }
+  .burger {
+    display: inline-block;
+  }
+  .burger_content {
+    position: absolute;
+    display: none !;
+  }
+  .burger:hover .burger_content {
+    display: block;
+  }
+  .second_screen-main_content > div {
+    display: none;
+  }
+  .cards {
+    display: block;
+  }
+  .cards div {
+    width: 80% !important;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .grid_layout_gallery {
+    width: 490px;
+    grid-template-areas:
+      "a a b b"
+      ". e e ."
+      ". g g .";
+  }
+  .img-d,
+  .img-c,
+  .img-f {
+    display: none;
+  }
+  .fifth_screen_main_container {
+    width: 525px !important;
+  }
+  .sixth_screen_main_container {
+    display: block;
+    width: 540px;
+  }
+  .card {
+    margin: 20px auto auto auto;
+  }
 }
 
 @media screen and (max-width: 576px) {
